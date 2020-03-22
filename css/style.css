@@ -2479,7 +2479,9 @@ Home Page Two
   padding-bottom: 0px; }
 
 .about_wrp2 {
-  margin-top: 42px; }
+  margin-top: 42px; 
+  text-align: justify;
+}
   @media (max-width: 991px) {
     .about_wrp2 {
       margin-top: 70px; } }
@@ -2512,7 +2514,7 @@ Home Page Two
       left: 0;
       top: 0px;
       content: "";
-      background: #fda12b;
+      background: #4caf50;
       font-size: 40px;
       width: 10px;
       height: 2px;
@@ -2565,7 +2567,7 @@ Home Page Two
   font-size: 25px;
   top: 28px;
   display: inline-block;
-  color: #fda12b;
+  color: #4caf50;
   position: relative;
   margin-right: 20px; }
 
