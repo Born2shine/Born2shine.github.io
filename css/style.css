@@ -747,7 +747,7 @@ header {
 .slider_home h2::after {
   position: absolute;
   content: "";
-  background: #fda12b;
+  background: #4caf50;
   width: 5px;
   height: 100%;
   left: 0px;
