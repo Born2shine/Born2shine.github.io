@@ -1180,7 +1180,7 @@ header {
       content: "";
       position: absolute;
       width: 55px;
-      background: #fda12b;
+      background: #4caf50;
       margin-left: 0px;
       height: 2px;
       right: 50%;
@@ -1337,7 +1337,7 @@ header {
       padding-bottom: 90px; } }
 
 .promo-item {
-  background: #f6f8fa;
+  background: #efefef /*#f6f8fa*/;
   margin-bottom: 30px;
   padding: 84px 40px 42px 40px;
   text-align: center; }
@@ -1355,7 +1355,7 @@ header {
   bottom: 30px;
   height: 3px;
   width: 0px;
-  background-color: #fda12b;
+  background-color: #fff;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -1369,7 +1369,7 @@ header {
   bottom: 30px;
   height: 3px;
   width: 0px;
-  background-color: #fda12b;
+  background-color: #fff;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -1390,7 +1390,7 @@ header {
   -o-transition: all 0.4s;
   -ms-transition: all 0.4s;
   transition: all 0.4s;
-  background: #1a2940; }
+  background: #4caf50; }
 
 .promo_icon {
   position: relative; }
@@ -1433,7 +1433,7 @@ header {
   z-index: 1; }
 
 .promo-item:hover .promo_icon::after {
-  background: #fda12b; }
+  background: white; }
 
 .promo-item h3 {
   display: block;
