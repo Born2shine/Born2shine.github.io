@@ -918,7 +918,7 @@ header {
     content: "";
     position: absolute;
     width: 30px;
-    background: #fda12b;
+    background: #4caf50;
     height: 1px;
     left: 0;
     bottom: -5px;
@@ -948,7 +948,7 @@ header {
       font-size: 18px;
       padding-right: 7px; }
       .footer_socil li a:hover {
-        color: #fda12b;
+        color: #4caf50;
         text-decoration: underline; }
   @media (max-width: 767px) {
     .footer_socil {
@@ -969,7 +969,7 @@ header {
   .quick_lnk ul li a {
     color: #acaba9; }
     .quick_lnk ul li a:hover {
-      color: #fda12b;
+      color: #4caf50;
       text-decoration: underline; }
   .quick_lnk ul li:last-child {
     padding-bottom: 0px; }
@@ -996,7 +996,7 @@ header {
         .latest-blog-list li h3 {
           margin-bottom: 4px; } }
       .latest-blog-list li h3:hover {
-        color: #fda12b; }
+        color: #4caf50; }
     .latest-blog-list li span {
       color: #808080;
       font-size: 14px; }
@@ -1037,7 +1037,7 @@ header {
   margin-top: -2px !important; }
 
 .news_letter_wrp button[type="submit"] {
-  background-color: #fda12b;
+  background-color: #4caf50;
   height: 48px;
   padding: 10px 22px 10px 22px;
   border: none;
@@ -1089,7 +1089,7 @@ header {
   color: #acaba9; }
 
 .scrollup {
-  color: #1a2940;
+  color: #4caf50;
   position: absolute;
   right: 0px;
   bottom: 0px;
@@ -1106,16 +1106,16 @@ header {
   font-size: 15px;
   background: transparent;
   padding: 9px 11px;
-  border: 2px solid #fda12b;
+  border: 2px solid #4caf50;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  color: #fda12b; }
+  color: #4caf50; }
 
 .scrollup span:hover {
-  background: #fda12b;
+  background: transparent;
   color: #fff; }
 
 .scrollup:hover,
@@ -1513,7 +1513,7 @@ header {
   position: absolute;
   left: 0px;
   top: 6px;
-  color: #fda12b;
+  color: #4caf50;
   font-size: 45px;
   line-height: 1em;
   margin-bottom: 25px; }
@@ -1831,7 +1831,7 @@ header {
     bottom: -2px;
     height: 3px;
     width: 0px;
-    background-color: #fda12b;
+    background-color: #4caf50;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -1844,7 +1844,7 @@ header {
     bottom: -2px;
     height: 3px;
     width: 0px;
-    background-color: #fda12b;
+    background-color: #4caf50;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -3528,7 +3528,7 @@ header {
   text-transform: capitalize;
   border: none;
   color: #fff;
-  background: #1a2940;
+  background: #4caf50;
   font-size: 15px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
@@ -3724,7 +3724,7 @@ header {
   left: 0px;
   margin-left: 15px;
   margin-top: 1px;
-  background: #1a2940;
+  background: #4caf50;
   width: 50px;
   height: 50px;
   -webkit-border-radius: 50%;
@@ -3768,7 +3768,7 @@ header {
   border-radius: 3px; }
 
 .contact-page .contact-form-warper #submit-contact:hover {
-  background: #fda12b; }
+  background: #4caf50; }
 
 .contact-page .contact-form-warper textarea {
   line-height: 39.5px; }
