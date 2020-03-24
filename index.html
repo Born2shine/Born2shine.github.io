@@ -35,7 +35,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body >
 
  <!-- ::::::::::::::::::::::::::: Start: Preloader section ::::::::::::::::::::::::::: -->  
     <div id="preloader"></div>
@@ -72,7 +72,7 @@
                             </ul>   
                         </div>  
                         <div class="header_info_bx_tw">
-                            <a href="#" class="more-link">Contact Us</a>
+                            <a href="#contact-us" class="more-link">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -89,15 +89,15 @@
                 <div class="pull-left">
                     <div id="navigation" class="menu_wrp">
                         <ul>
-                            <li class="active"><a href="#">Home</a>
+                            <li class="active"><a class="home" href="#home">Home</a>
                             </li>
-                            <li class=""><a href="#">About Us</a>
+                            <li class=""><a class="about-us" href="#about-us">About Us</a>
                             </li>
-                            <li class=""><a href="#">Our Services</a>
+                            <li class=""><a class="our-service" href="#our-service">Our Services</a>
                             </li>
-                            <li><a href="#">Why Us</a>
+                            <li><a class="smoothscroll" href="#why-us">Why Us</a>
                             </li>                            
-                            <li><a href="#">Contact Us</a>
+                            <li><a class="smoothscroll" href="#contact-us">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -163,7 +163,7 @@
 
 <!-- Start:  About  Section
 ==================================================-->
-<section class="about-section about_sec_tw pad_tb_120">
+<section class="about-section about_sec_tw pad_tb_120" id="about-us">
     <div class="container">
         <div class="row">
             <!-- Start:  Col-lg-6  -->
@@ -232,7 +232,7 @@
 
     <!-- Start:  Service  Section
 ==================================================-->
-<section class="service_sectwo pad_tb_120">
+<section class="service_sectwo pad_tb_120" id="our-service">
     <div class="container">
         <div class="base-header base_header_two">
             <h3>Our services</h3>
@@ -242,7 +242,7 @@
             <div class="col-lg-4 col-sm-12">
                 <div class="promo-item">
                     <div class="promo_icon">
-                        <img alt="" src="images/sevice_icon1.png">                         
+                        <img alt="" src="images/residential-cleaning.png">                         
                     </div>
                     <h3>Residential Cleaning</h3>
                     <p>Attended no do thoughts meon of after a dissuade scarcely own are prettot aft er sprini meon after </p>
@@ -251,7 +251,7 @@
             <div class="col-lg-4 col-sm-12">
                 <div class="promo-item">
                     <div class="promo_icon">
-                        <img alt="" src="images/sevice_icon2.png">                        
+                        <img alt="" src="images/post-event-cleaning.png">                        
                     </div>
                     <h3>Post Event Cleaning</h3>
                     <p>Attended no do thoughts meon of after a dissuade scarcely own are prettot aft er sprini meon after </p>
@@ -260,7 +260,7 @@
             <div class="col-lg-4 col-sm-12">
                 <div class="promo-item">
                     <div class="promo_icon">
-                        <img alt="" src="images/sevice_icon3.png">                        
+                        <img alt="" src="images/deep-cleaning.png">                        
                     </div>
                     <h3>Deep Cleaning</h3>
                     <p>Attended no do thoughts meon of after a dissuade scarcely own are prettot aft er sprini meon after </p>
@@ -278,7 +278,7 @@
             <div class="col-lg-4 col-sm-12">
                 <div class="promo-item">
                     <div class="promo_icon">
-                        <img alt="" src="images/sevice_icon2.png">                        
+                        <img alt="" src="images/maid-services.png">                        
                     </div>
                     <h3>Maid Services</h3>
                     <p>Attended no do thoughts meon of after a dissuade scarcely own are prettot aft er sprini meon after </p>
@@ -287,7 +287,7 @@
             <div class="col-lg-4 col-sm-12">
                 <div class="promo-item">
                     <div class="promo_icon">
-                        <img alt="" src="images/sevice_icon3.png">                        
+                        <img alt="" src="images/commercial-icon.png">                        
                     </div>
                     <h3>Commercial Cleaning</h3>
                     <p>Attended no do thoughts meon of after a dissuade scarcely own are prettot aft er sprini meon after </p>
@@ -324,7 +324,7 @@
 
   <!-- Start:  Service  Section
 ==================================================-->
-<section class="whychose-section pad_tb_120">
+<section class="whychose-section pad_tb_120" id="why-us">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-sm-12">
@@ -516,7 +516,7 @@
     <!-- End:  Team Section
 ==================================================-->
 
-<section class="contact-page pad_tb_120">
+<section class="contact-page pad_tb_120" id="contact-us">
         <div class="container">
             <!--  Content  -->
             <div class="inner-contact">
@@ -697,7 +697,8 @@
     <!-- Scripts
 ========================================-->
     <!-- jquery -->
-    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jqueryUI.js"></script>
     <!-- plugins -->
     <script src="js/plugins.js"></script>
     <!-- Bootstrap -->
@@ -708,5 +709,32 @@
     <!-- Custom Scripts
 ========================================-->
     <script src="js/main.js"></script> 
+     <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 550) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 400);
+                return false;
+            });
+        });
+    </script>
+    <script>
+	$(document).on('click', 'a[href^="#"]', function (e) {
+	e.preventDefault();
+
+	$('html, body').stop().animate({
+	scrollTop: $($(this).attr('href')).offset().top
+	}, 1000, 'linear');
+	});
+	</script>
 </body>
 </html>

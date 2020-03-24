@@ -176,6 +176,25 @@
         return false;
     });
 
+    $(".home").on('click', function() {
+        $('html,body').animate({
+            'scrollTop': '0'
+        }, 1000);
+        return false;
+    });
+
+    // $(".about-us").on('click', function() {
+    //     $('html,body').animate({
+    //         'scrollTop': '899'
+    //     }, 2000);
+    //     return false;
+    // });
+    // $(".our-service").on('click', function() {
+    //     $('html,body').animate({
+    //         'scrollTop': '1660'
+    //     }, 2000);
+    //     return false;
+    // });
 
 
 })(jQuery);
